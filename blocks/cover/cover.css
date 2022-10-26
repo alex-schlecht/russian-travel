@@ -1,13 +1,7 @@
 .cover {
   font-family: 'Inter', Arial, sans-serif;
-  padding: 92px 48px 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    padding-left: 0;
-    padding-right: 0;
-  }
+  padding: 92px 0 0;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {

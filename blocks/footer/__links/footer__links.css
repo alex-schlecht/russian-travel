@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(5, auto);
   column-gap: 18px;
+  padding-inline-start: 0;
 }
 
 @media screen and (max-width: 767px) {
