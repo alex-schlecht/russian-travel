@@ -9,14 +9,9 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 554px) {
   .intro__title {
-    padding-top: 88px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__title {
-    padding-top: 64px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

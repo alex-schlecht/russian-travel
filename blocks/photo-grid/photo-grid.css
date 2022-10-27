@@ -3,9 +3,10 @@
   max-width: 1184px;
   grid-template-columns: repeat(4, minmax(284px, 1fr));
   justify-content: center;
+  list-style-type: none;
   gap: 16px 16px;
   margin: 0 auto;
-  padding: 80px 0 0;
+  padding: 92px 0 0;
 }
 
 @media screen and (max-width: 1200px) {
@@ -20,6 +21,7 @@
     grid-template-columns: repeat(2, minmax(284px, 1fr));
     width: calc(100% - 2 * 24px);
     gap: 16px 16px;
+    padding-top: 88px;
   }
 }
 
@@ -28,5 +30,6 @@
     grid-template-columns: repeat(1, minmax(284px, 1fr));
     width: calc(100% - 2 * 16px);
     row-gap: 12px;
+    padding-top: 64px;
   }
 }

@@ -2,7 +2,9 @@
   display: grid;
   grid-template-columns: repeat(5, auto);
   column-gap: 18px;
-  padding-inline-start: 0;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 767px) {
